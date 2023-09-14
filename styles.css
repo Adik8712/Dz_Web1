@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.rectangle {
+    width: 1520px;
+    height: 680px;
+    background-color: #fcfcfc;
+    padding: 20px;
+    border: 2px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.image-container {
+    text-align: auto;
+    width: 260px;
+    margin: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 105px;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;
+}
